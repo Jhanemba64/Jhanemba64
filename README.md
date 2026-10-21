@@ -4,6 +4,8 @@ J'automatise, je sécurise et je supervise des plateformes, du commit à la prod
 Spécialisé dans la **gestion des identités** (Keycloak, SSO, OIDC, SAML, passkeys) et l'**industrialisation cloud sur AWS**, j'applique aussi des agents IA à l'exploitation.
 Près de 10 ans d'expérience technique, dont 5 dans les réseaux télécoms.
 
+> Ce compte rassemble mes projets personnels. Mon travail en entreprise vit sur des dépôts privés, confidentialité oblige : j'en parle volontiers en entretien.
+
 ### Stack
 
 | Domaine | Outils |

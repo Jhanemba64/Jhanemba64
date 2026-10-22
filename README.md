@@ -14,11 +14,12 @@ Près de 10 ans d'expérience technique, dont 5 dans les réseaux télécoms.
 | Conteneurs | Docker, Docker Compose, Kubernetes |
 | CI/CD | GitLab CI, GitHub Actions |
 | Observabilité | Prometheus, Grafana, Zabbix, Elasticsearch / Kibana |
-| IAM | Keycloak, SSO, OIDC, SAML, Entra ID |
+| IAM | Keycloak, SSO, OIDC, SAML, passkeys (WebAuthn), MFA, Entra ID |
 | Développement | TypeScript, Node.js, React, Next.js, Python |
 
 ### Projets à voir
 
+- **[keycloak-iam-lab](https://github.com/Jhanemba64/keycloak-iam-lab)** — Keycloak 26 configuré en Terraform : OIDC en modèle BFF avec PKCE, passkeys ou mot de passe + OTP, flux d'authentification sur mesure, et tests de bout en bout Playwright qui vérifient la sécurité dans un vrai navigateur.
 - **[meditrack-ecs-fargate](https://github.com/Jhanemba64/meditrack-ecs-fargate)** — API conteneurisée sur AWS ECS Fargate derrière un ALB, base RDS, secrets dans Secrets Manager, le tout décrit en Terraform.
 - **[voltauto-devops-monitoring](https://github.com/Jhanemba64/voltauto-devops-monitoring)** — stack web 3 tiers supervisée de bout en bout (Zabbix, Elasticsearch / Kibana, alerting Grafana) : 14 services démarrés et configurés par un seul `docker compose up`.
 - **[flask-api-demo](https://github.com/Jhanemba64/flask-api-demo)** — pipeline GitHub Actions : tests, image Docker publiée sur GHCR, déploiement sur Render piloté par Terraform.
